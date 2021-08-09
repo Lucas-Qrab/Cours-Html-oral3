@@ -1,0 +1,146 @@
+a{
+	text-decoration: none;
+}
+
+#header_supp{
+	background-color: #383838;
+	text-align: right;
+	height: 50px;
+	margin: -10px;
+}#header_inf{
+	background-color: #f4f4f4;
+}#logo img{
+	display: inline-block;
+	background-color: #272727;
+	height: 30px;
+	margin: 10px 20px 0 0; 
+}#left{
+	display: inline-block;
+	background-color: #272727;
+	width: 25%;
+	height: 100%;
+}#right{
+	display: inline-block;
+	float: right;
+	width:  75%;
+	text-align: center;
+	margin-top: 10px;
+}#search{
+	color: grey;
+	background-color: #272727;
+	text-align: center;
+	border-radius: 2px;
+	border: none;
+	height: 25px;
+	margin-right: 5px;
+}.button{
+	text-align: center;
+	border-radius: 2px;
+	border: none;
+	height: 25px;
+	margin-right: 5px;
+	padding: 0 20px;
+}#connection{
+	background-color: #009aff;
+	color: white;
+}#inscription{
+	background-color: #87b201;
+	color: white;
+}
+
+
+#header_inf{
+	width: 100%;
+	background-color: #f4f4f4;
+}nav{
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: 700;
+	margin: 10px 0 0 18% ;
+	width: 100%;
+	height: 50px;
+}nav span{
+	width: 5%;
+	height: 100%;
+	display: inline-block;
+	clear: both;
+	text-align: center;
+}nav a{
+	margin-top: 15px;
+	height: 100%;
+	display: block;
+	text-decoration: none;
+	color: black;
+}nav span:hover{
+	background-color: #e8e8e8;
+}
+
+
+#carroussel{
+	width: 60%;
+	text-align: center;
+	margin: 0 20%;
+	background-image: url("1.jpg");
+	height: 300px;
+}#droite{
+	margin-top: 125px;
+	width: 50%;
+	display: inline-block;
+	float: right;
+	text-align: right;
+}#gauche{
+	margin-top: 125px;
+	width: 50%;
+	display: inline-block;
+	text-align: left;
+}
+
+
+/* gestion de la section actu */
+#actu{
+	background-color: #8e64ae;
+	color: white;
+	font-size: 18px;
+	font-family: Arial;
+	width: 39%;
+	margin : 0 0 0 20%;
+	display: inline-block;
+	float: left;
+}#actu span{
+	color: white;
+	margin: 0 23% 0  5px ;
+	text-align: left;
+}#actu a{
+	color: white;
+}#actu input{
+	background-color: #72508b;
+	border: none;
+	color: white;
+	font-size: 14px;
+	margin-left: -4px;
+	padding: 10px;
+}
+
+
+#online{
+	background-color: #87b201;
+	color: white;
+	font-size: 18px;
+	font-family: Arial;
+	width: 20%;
+	display: inline-block;
+	margin-left: 10px;
+}#online span{
+	color: white;
+	margin: 0 76px 0  5px ;
+	text-align: left;
+}#online a{
+	color: white;
+}#online input{
+	background-color: #6c8e01;
+	border: none;
+	color: white;
+	font-size: 14px;
+	margin-left: -4px;
+	padding: 10px;
+}
